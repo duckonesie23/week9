@@ -16,10 +16,10 @@ public class Negative{
         System.out.println(n3);
         System.out.println(n4);
         System.out.println(sum);
-        if(sum > 0){
+        if(sum > 0)
             System.out.print("Not Negative");
-        }else if(sum < 0){
+        else if(sum < 0)
             System.out.print("Negative");
-        }
+        
     }
 }
