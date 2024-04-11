@@ -29,5 +29,16 @@ public class Game21 {
         dsum = d1+d2+d3;
         System.out.println("Dealer's cards: "+d1+", "+d2+", "+d3);
         System.out.println("Dealer's sum: "+dsum);
+
+        if(sum > 21)
+            System.out.println("You busted!");
+        else if(dsum > 21)
+            System.out.println("Dealer busted!");
+        else if(sum>dsum)
+            System.out.println("You win!");
+        else if(dsum>sum)
+            System.out.println("Dealer wins!");
+        else if(dsum==sum)
+            System.out.println("Tie.");
     }
 }
