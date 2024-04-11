@@ -21,8 +21,6 @@ public class Game21 {
             System.out.println("You drew "+tempnum);
             System.out.println("Your Sum: "+sum);
         }
-        else
-            return;
         d1 = (int) (12*Math.random())+1;
         d2 = (int) (12*Math.random())+1;
         d3 = (int) (12*Math.random())+1;
